@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits_Mall</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- AOS links -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS Links -->
+
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+
+    <!-- icon link -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- icon link -->
+
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+
+
+</head>
+<body>
+    <!-- top navbar -->
+    <div class="top-navbar p-3 fixed-top">
+        <p>WELCOME TO OUR SHOP</p>
+        <div class="icons">
+            <a href="./login.html"><img src="./images/register.png" alt="" width="18px"><span class="text-dark p-2">Login</span></a>
+            <a href="./register.html"><img src="./images/register.png" alt="" width="18px"><span class="text-dark">Register</span></a>
+        </div>
+    </div>
+    <!-- top navbar -->
+
+    <!-- navbar -->
+   
+    <nav class="navbar mainnav navbar-expand-lg navbar-light fixed-top"data-aos="fade-down">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><span class="text-danger fw-bolder fs-3">Fruits</span> <span class="text-dark fw-bold">Shop</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#product-cards">Product</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-dark" href="#">Sweet Fruits</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Indian Fruits</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">American Fruits</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Vegetables</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Root Vegetables</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Berries</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Melons</a></li>
+                    <li><a class="dropdown-item text-dark" href="#"> Nuts</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#service">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success bg-info text-dark rounded-pill" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   
+    <!-- navbar -->
+
+    <!-- home section -->
+    <div class="container" id="hom">
+      <div class="row">
+        <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1500">
+          <h1 class="disc p-5">Fresh Fruits
+            <br>
+            Up To <span class="text-danger">15%</span> Off
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt magni, aspernatur alias, repellendus quidem sequi voluptatem architecto assumenda adipisci pariatur dicta corporis minima totam facere doloremque similique! Sapiente, iure quaerat!
+          </p>
+      <div class="btn"><button class="btn btn-danger p-2 fw-bold fs-5">Shop Now</button></div>
+
+        </div>
+        <div class="col-sm-6"  data-aos="fade-left" data-aos-duration="1500">
+          <img src="https://cdn.pixabay.com/photo/2018/05/29/15/52/fruit-3439189__340.jpg" class="img1 p-5" alt="">
+        </div>
+      </div>
+
+      <!-- product cards -->
+    <div class="container pt-5" data-aos="zoom-in" data-aos-duration="1500" id="product-cards">
+      <h1 class="green text-center p-1">PRODUCTS</h1>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2010/12/13/10/05/berries-2277__340.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Strawberry</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center bg-secondary">
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+              </div>
+              <h4 class="text-center p-2">$150 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/02/26/12/27/oranges-2100108__340.jpg" class="w-100 h-75" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Orange</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center bg-secondary">
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+              </div>
+              <h4 class="text-center p-2">$100 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/07/09/12/16/apples-1506119__340.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Apples</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center bg-secondary">
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+              </div>
+              <h4 class="text-center p-2">$200 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/01/03/17/59/bananas-1119790__340.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Bananas</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center bg-secondary">
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+              </div>
+              <h4 class="text-center p-2">$300 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2010/12/13/10/18/watermelons-2636__340.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Watermelons</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center bg-secondary">
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+              </div>
+              <h4 class="text-center p-2">$50.60 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2014/08/12/23/38/tomatoes-417104__340.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Tomatoes</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center bg-secondary">
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+              </div>
+              <h4 class="text-center p-2">$600 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2017/09/23/18/54/cayenne-peppers-2779828__340.jpg" alt="">
+            <div class="card-body">
+              <h3 class="text-center">RedChilli</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center bg-secondary">
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+              </div>
+              <h4 class="text-center p-2">$500 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/03/23/04/44/fruits-and-vegetables-1274079__340.png" alt="">
+            <div class="card-body">
+              <h3 class="text-center">fig</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              <div class="star text-center bg-secondary">
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+                <i class="fa-solid fa-star checked text-warning"></i>
+              </div>
+              <h4 class="text-center p-2">$60 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product cards -->
+    
+<!-- other cards -->
+<div class="container p-4 m-2" id="other-cards">
+  <div class="row">
+    <div class="col-md-6 py-3 py-md-0">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2016/04/27/14/58/fig-1356770__340.jpg" class="p-2"data-aos="zoom-in-down" alt="">
+        <div class="card-img-overlay">
+          <h3 class="fw-bold text-decoration-underline">American Spacial Fruit</h3>
+          <h5 class="fw-bold text-danger">Black fig</h5>
+          <p class="fw-bold">Up To 10% Off<br> offer limited</p>
+          <div class="btn"><button class="btn btn-danger p-2 fw-bold fs-5">Buy Now</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 py-3 py-md-0">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/22/18/food-1239241__340.jpg" class="p-3"data-aos="zoom-in-down" alt="">
+        <div class="card-img-overlay">
+          <h3 class="fw-bold text-decoration-underline">Indian Special Fruit</h3>
+          <h5 class="fw-bold text-danger">Mangoes</h5>
+          <p class="fw-bold">Up To 15% Off <br> offer only 5 days</p>
+      <div class="btn"><button class="btn btn-danger p-2 fw-bold fs-5">Buy Now</button></div>
+
+          <!-- <button class="btn p-2 fw-bold bg-danger text-white" id="shopnow">Buy Now</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- other cards -->
+
+ 
+<!-- vegetables -->
+     <div class="offer">
+      <div class="row">
+        <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1500">
+          <h1 class="disc p-5">Fresh Vegetables
+            <br>
+            Up To <span class="text-danger">20%</span> Off
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit. Incidunt magni, aspernatur alias, repellendus quidem sequi voluptatem architecto assumenda adipisci pariatur dicta corporis minima totam facere doloremque similique! Sapiente, iure quaerat!
+          </p>
+      <div class="btn"><button class="btn btn-danger p-2 fw-bold fs-5" id="buy" onclick="gotoveg()">Buy Now</button></div>
+
+        </div>
+        <div class="col-sm-6"  data-aos="fade-left" data-aos-duration="1500">
+          <img src="https://cdn.pixabay.com/photo/2017/04/28/15/44/vegetables-2268682__340.jpg" class="img1 p-5" alt="">
+        </div>
+      </div>
+<!-- vegetables -->
+
+ <!-- Services section -->
+ <div class="container p-5" id="service">
+  <h1 class="green text-center p-3">Our Services</h1>
+  <div class="row">
+    <div class="col-md-3 pt-3 py-md-0">
+      <h4 class="text-center p-2 fs-2 bg-warning"><li class="fa-solid fa-cart-shopping"></li></h4>
+          <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+      <h3 class="text-center fw-bold" data-aos="zoom-in">Free Shipping</h3>
+      <p class="text-center fw-bold">On order over $550</p>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <h4 class="text-center p-2 fs-2 bg-warning"><li class="fa-solid fa-rotate-left"></li></h4>
+      <!-- <i class="fa-solid fa-rotate-left"></i> -->
+      <h3 class="text-center fw-bold" data-aos="zoom-in">Free Returns</h3>
+      <p class="text-center fw-bold">Within 3 days</p>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <h4 class="text-center p-2 fs-2 bg-warning"><li class="fa-solid fa-truck"></li></h4>
+      <!-- <i class="fa-solid fa-truck"></i> -->
+      <h3 class="text-center fw-bold" data-aos="zoom-in">Fast Delivery</h3>
+      <p class="text-center fw-bold">World Wide</p>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <h4 class="text-center p-2 fs-2 bg-warning"><li class="fa-solid fa-thumbs-up"></li></h4>
+      <!-- <i class="fa-solid fa-thumbs-up"></i> -->
+      <h3 class="text-center fw-bold" data-aos="zoom-in">Fresh choice</h3>
+      <p class="text-center fw-bold">Of Fruits & Vegetables</p>
+    </div>
+  </div>
+</div>
+<!-- Services section -->
+
+ <!-- newslater -->
+ <div class="container" id="newslater">
+  <h3 class="text-center">Subscribe To The Fruits_Mall For Latest Fresh fruits & Vetables.</h3>
+  <div class="input text-center">
+    <input type="text" class="text fs-6 text-center w-50" placeholder="Enter Your Email..">
+    <button class="btn m-3 p-1 btn btn-outline-warning p-2 fw-bold text-dark">SUBSCRIBE</button>
+  </div>
+</div>
+<!-- newslater -->
+
+<!-- Contact -->
+<div class="container p-5" id="contact">
+  <h1 class="green text-center p-3">Contact</h1>
+
+  <footer id="footer" data-aos="flip-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3 class="text-white">Fruits_Mall</h3>
+            <p class="text-danger">
+             India <br>
+              America <br>
+              </p>
+            <strong class="text-danger">Mobile No: +91 8208007654 </strong><br>
+            <strong class="text-danger">Email: freshfruits21@.com </strong><br>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 class="text-white">Usefull Links</h4>
+           <ul>
+            <li><a class="text-danger" href="#">Home</a></li>
+            <li><a class="text-danger" href="#">Services</a></li>
+            <li><a class="text-danger" href="#">Privacy policey</a></li>
+           </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 class="text-white">Our Services</h4>
+
+           <ul>
+            <li><a class="text-danger" href="#">Free Returns</a></li>
+            <li><a class="text-danger" href="#">Fast Delivery</a></li>
+            <li><a class="text-danger" href="#">Fresh fruits Deliver</a></li>
+            <li><a class="text-danger" href="#">Fresh Vegetables Deliver</a></li>
+            <li><a class="text-danger" href="#">Best packing</a></li>
+           </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4 class="text-white">Our Social Networks</h4>
+            <p class="text-danger">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, quibusdam.</p>
+
+            <div class="socail-links mt-3">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-skype"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4 text-center">
+      <div>
+         <span class="text-white">Fruits_Mall</span>. <span class="text-danger" >All Rights Reserved</span> 
+      </div>
+      <div class="text-white">
+        Designed by <a class="text-danger">Harshada Patil, feb 2023</a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      <script src="./app.js"></script>
+
+</body>
+</html>

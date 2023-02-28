@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits_Mall</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- AOS links -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS Links -->
+
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+
+    <!-- icon link -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- icon link -->
+
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+
+
+</head>
+<body>
+    <!-- top navbar -->
+    <div class="top-navbar p-2 fixed-top">
+        <p>WELCOME TO OUR SHOP</p>
+        <div class="icons">
+            <a href="./login.html"><img src="./images/register.png" alt="" width="18px"><span class="text-dark p-2">Login</span></a>
+            <a href="./register.html"><img src="./images/register.png" alt="" width="18px"><span class="text-dark">Register</span></a>
+        </div>
+    </div>
+    <!-- top navbar -->
+
+    <!-- navbar -->
+    <nav class="navbar mainnav navbar-expand-lg navbar-light"data-aos="fade-down">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><span class="text-danger fw-bolder fs-3">Fruits</span> <span class="text-dark fw-bold">Shop</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#product-cards">Product</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-dark" href="#">Sweet Fruits</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Indian Fruits</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">American Fruits</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Vegetables</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Root Vegetables</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Berries</a></li>
+                    <li><a class="dropdown-item text-dark" href="#">Melons</a></li>
+                    <li><a class="dropdown-item text-dark" href="#"> Nuts</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success bg-info text-dark rounded-pill" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar -->
+
+   <!-- product cards -->
+   <div class="container" data-aos="zoom-in" data-aos-duration="1500" id="product-cards">
+    <h1 class="green text-center p-5">Green_Vegetables</h1>
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2022/10/23/12/40/basket-7541194__340.jpg" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Onion</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <div class="star text-center bg-secondary">
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+            </div>
+            <h4 class="text-center p-2">$150 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2021/01/20/16/14/cabbages-5934803__340.jpg" class="w-100 h-75" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Cabbages</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <div class="star text-center bg-secondary">
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+            </div>
+            <h4 class="text-center p-2">$100 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2016/02/17/19/14/peas-1205673__340.jpg" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Green_Peas</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <div class="star text-center bg-secondary">
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+            </div>
+            <h4 class="text-center p-2">$200 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2018/09/25/20/09/bush-beans-3702999__340.jpg" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Bush_beans</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <div class="star text-center bg-secondary">
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+            </div>
+            <h4 class="text-center p-2">$300 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2021/09/20/16/47/pumpkins-6641314__340.jpg" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Pumpkins</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <div class="star text-center bg-secondary">
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+            </div>
+            <h4 class="text-center p-2">$50.60 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2019/12/11/16/20/parsley-4688651__340.jpg" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Parseley</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <div class="star text-center bg-secondary">
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+            </div>
+            <h4 class="text-center p-2">$600 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2018/08/30/04/27/swiss-chard-3641280__340.jpg" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Swiss_Chard</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <div class="star text-center bg-secondary">
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+            </div>
+            <h4 class="text-center p-2">$500 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/broccoli-1238250__340.jpg" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Broccoli</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center bg-secondary">
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                </div>
+                <h4 class="text-center p-2">$500 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+              </div>
+            </div>
+          </div>
+      <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2016/07/11/00/18/carrots-1508847__340.jpg" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Carrots</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center bg-secondary">
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                </div>
+                <h4 class="text-center p-2">$500 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+              </div>
+            </div>
+          </div>
+      <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2018/06/22/13/52/beetroot-3490809__340.jpg" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Beetroots</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center bg-secondary">
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                </div>
+                <h4 class="text-center p-2">$500 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+              </div>
+            </div>
+          </div>
+      <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="https://cdn.pixabay.com/photo/2020/05/21/06/58/corn-5199393__340.jpg" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Sweet corn</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <div class="star text-center bg-secondary">
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                  <i class="fa-solid fa-star checked text-warning"></i>
+                </div>
+                <h4 class="text-center p-2">$500 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+              </div>
+            </div>
+          </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="https://cdn.pixabay.com/photo/2016/07/16/16/30/spinach-1522283__340.jpg" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Spinach</h3>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <div class="star text-center bg-secondary">
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+              <i class="fa-solid fa-star checked text-warning"></i>
+            </div>
+            <h4 class="text-center p-2">$60 <span><li class="fa-solid fa-cart-shopping"></li></span></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- vegetables section -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

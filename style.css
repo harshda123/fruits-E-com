@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Merriweather', serif;
+}
+/* main nav */
+.mainnav{
+    margin-top: 3rem;
+    background-color: rgb(130, 205, 71);
+}
+
+/* top navbar */
+.top-navbar{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item .nav-link:hover{
+    background-color: #df5e6451;
+
+}
+
+.dropdown-menu li a{
+    color: rgb(230, 193, 193);
+    transition: 0.5s ease;
+    z-index: 999%;
+}
+
+/* home section */
+.disc{
+ font-size: 350%;
+ font-weight: bolder;
+ text-decoration: aqua;
+ color: rgb(187, 6, 187);
+ text-shadow: -1px 1px 1px black;
+}
+
+.btn button:hover{
+    background-color: #46efc8;
+    color: black;
+    border: none;
+}
+
+#hom{
+    margin-top: 8rem;
+}
+/* product card */
+/* #product-cards h1{
+    color: #ffc800;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #ffc800;
+} */
+#other-cards{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.container{
+    padding-top: 20px;
+}
+
+/* other cards vegetables*/
+#product-cards .green{
+    color: #ff0004;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #ff0000;
+    font-weight: bold;
+}
+
+/* services */
+#service .green{
+    color: #ff0004;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #ff0000;
+    font-weight: bold;
+}
+
+/* newsletor */
+#newslater h3{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+#newslater .text {
+    letter-spacing: 3px;
+} 
+
+/* contact */
+#contact .green{
+    color: #ff0004;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #ff0000;
+    font-weight: bold;
+}
+
+#footer{
+    color: white;
+    font-size: 14px;
+    background-color: rgb(84, 180, 53);
+    margin-top: 25px;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#footer .footer-top .socail-links a{
+    font-size: 20px;
+    display: inline-block;
+    background-color: #373737;
+    color: white;
+    padding: 6px;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    transition: 0.5s ease;
+}
+#footer .footer-top .socail-links a:hover{
+    background-color: #ff5500;
+    color: white;
+}
+
+/* login page */
+
+#login{
+    width: 68%;
+    height: 70vh;
+    /* background-color: rgb(67 0 86); */
+    background-color: rgb(84, 180, 53);
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(17,12, 46, 0.15) 0px 48px 100px 0px;
+}
+#side1 h3{
+    font-weight: bold;
+    margin-top: 200px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+#side2{
+    background-color: white;
+    height: 63vh;
+    border-radius: 10px;
+    
+}
+#side2 h3{
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+.input2 input{
+    margin-top: 15px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #ff0000;
+}
+.input2 input ::placeholder{
+    font-weight: bold;
+}
+/* #btnlogin{
+    padding-top: 10px;
+} */
+
+
+#side2 p{
+    margin-top: 10px;
+}
+/* @media screen and (max-width:991px){
+    .input2 input{
+        width: 250px;
+    }
+} */
+@media screen and (max-width:765px){
+    .input2 input{
+        width: 300%;
+    }
+    #side2{
+        height: 60vh;
+    }
+    #newslater{
+        margin-top: 70%;
+    }
+    .mainnav{
+        margin-top: 4rem;
+    }
+    #login h3{
+        margin-top: 1rem;
+    }
+}
+/* login */
+
+/* register */
+#register{
+    margin-top: 8rem;
+}
+
+#register .row{
+    background-color: #46efc8;
+}
